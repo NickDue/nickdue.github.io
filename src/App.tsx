@@ -1,16 +1,12 @@
 import './App.css'
+import {Box} from "@mui/material";
 
 function App() {
 
   return (
-    <>
-      <div>
-        <p>
-            Test 3
-        </p>
-      </div>
-
-    </>
+      <Box>
+            Hello
+      </Box>
   )
 }
 
