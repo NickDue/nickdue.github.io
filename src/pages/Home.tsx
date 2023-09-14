@@ -1,12 +1,15 @@
-import {Box} from "@mui/material";
+import {Box, Container, Typography} from "@mui/material";
 import {FC} from "react";
 
 
 const Home:FC = () => {
     return (
-        <Box>
-            Home
-        </Box>
+        <Container maxWidth={"md"}>
+            <Box sx={{height: "42"}}/>
+            <Typography variant={"h1"}>
+                Hello!
+            </Typography>
+        </Container>
     );
 }
 

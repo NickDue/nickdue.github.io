@@ -1,11 +1,15 @@
-import {FC} from "react";
+import  {FC} from "react";
+import {Container} from "@mui/material";
+import ProjectCard from "../components/ProjectCard.tsx";
+import eximage from "../assets/images/eximage.png";
 
 
 const Projects:FC = () => {
     return (
-        <div>
+        <Container maxWidth={"md"}>
             <h1>Projects</h1>
-        </div>
+            <ProjectCard github={""} name={""} description={""} image={eximage} tags={[]} id={0} />
+        </Container>
     )
 }
 
